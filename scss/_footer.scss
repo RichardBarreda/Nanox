@@ -1,0 +1,41 @@
+.footer {
+    padding: 25px 0px;
+    background-color: #0b192a;
+    position: relative;
+
+    .footer-wrapper {
+        .footer-text {
+            text-align: center;
+            font-size: 14px;
+            color: #c7c7c7;
+            line-height: 18px;
+            margin: 0;
+        }
+    }
+
+    .up-button {
+        margin: 0;
+        background-color: white;
+        position: absolute;
+        right: 50px;
+        bottom: 25px;
+        width: 45px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        border: solid 1px white;
+
+        .fa {
+            margin-top: -5px;
+            font-size: 20px;
+        }
+
+        &:hover {
+            cursor: pointer;
+            background-color: #0b192a;
+            color: whitesmoke;
+        }
+    }
+}
