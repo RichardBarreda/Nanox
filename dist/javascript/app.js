@@ -49,6 +49,8 @@ $(document).ready(function(){
 
 $("#btnMobileHeader").click(function(){
   $("#mobileDisplay").toggleClass("active");
+  $(".header").addClass("scroll-active");
+  $("body").toggleClass("disable-scroll");
   // $("#mobileLogo").toggleClass("visible");
 });
 

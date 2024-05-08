@@ -100,6 +100,10 @@
     }
 }
 
+.disable-scroll {
+    overflow: hidden;
+}
+
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {  
@@ -254,8 +258,8 @@
 
 @media (max-width: 575.98px) {
     .header {
-        background-color: #0a3b7c;
-        box-shadow: 0 -6px 10px 5px rgba(0,0,0,1);
+        background-color: transparent;
+        // box-shadow: 0 -6px 10px 5px rgba(0,0,0,1);
       
         padding: 0px 0px;
 
@@ -355,6 +359,9 @@
     }
 
     .scroll-active {
+        background-color: #0a3b7c;
+        box-shadow: 0 -6px 10px 5px rgba(0,0,0,1);
+
         .header-mobile {
           
             .display-holder {

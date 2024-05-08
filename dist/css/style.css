@@ -82,8 +82,7 @@
 @media (max-width: 575.98px) {
   .banner {
     height: auto;
-    margin-top: 55px;
-    padding: 60px 0px;
+    padding: 100px 0px 40px 0px;
   }
   .banner .banner-wrapper {
     display: flex;
@@ -179,6 +178,10 @@
   width: 125px;
 }
 
+.disable-scroll {
+  overflow: hidden;
+}
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .header {
     background-color: #0a3b7c;
@@ -262,8 +265,7 @@
 }
 @media (max-width: 575.98px) {
   .header {
-    background-color: #0a3b7c;
-    box-shadow: 0 -6px 10px 5px rgb(0, 0, 0);
+    background-color: transparent;
     padding: 0px 0px;
     display: flex;
     justify-content: center;
@@ -340,6 +342,10 @@
     opacity: 1;
     transition: 0.5s ease;
     pointer-events: auto;
+  }
+  .scroll-active {
+    background-color: #0a3b7c;
+    box-shadow: 0 -6px 10px 5px rgb(0, 0, 0);
   }
   .scroll-active .header-mobile .display-holder .logo-container .visible {
     opacity: 1;
