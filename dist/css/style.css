@@ -307,6 +307,7 @@
   }
   .header .header-mobile .display-holder .link-container .dropdown-btn:focus {
     outline: none !important;
+    box-shadow: none;
   }
   .header .header-mobile .dropdown-holder {
     display: flex;
@@ -1036,7 +1037,7 @@
   font-size: 14px;
   color: #c7c7c7;
   line-height: 18px;
-  margin: 0;
+  margin: 0px;
 }
 .footer .up-button {
   margin: 0;
