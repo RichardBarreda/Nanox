@@ -48,9 +48,20 @@ $(document).ready(function(){
 });
 
 $("#btnMobileHeader").click(function(){
-  $("#mobileDisplay").toggleClass("active");
-  $(".header").addClass("scroll-active");
-  $("body").toggleClass("disable-scroll");
+  // $("#mobileDisplay").toggleClass("active");
+  // $(".header").addClass("scroll-active");
+  // $("body").toggleClass("disable-scroll");
+
+  if($(window).scrollTop() < 150) {
+    $("#mobileDisplay").toggleClass("active");
+    $(".header").toggleClass("scroll-active");
+    $("body").toggleClass("disable-scroll");
+  } else {
+    $("#mobileDisplay").toggleClass("active");
+    $(".header").addClass("scroll-active");
+    $("body").toggleClass("disable-scroll");
+  }
+
   // $("#mobileLogo").toggleClass("visible");
 });
 
