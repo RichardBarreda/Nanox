@@ -65,6 +65,10 @@ $("#btnMobileHeader").click(function(){
   // $("#mobileLogo").toggleClass("visible");
 });
 
+$(".header-mobile-link").click(function(){
+  $("body").toggleClass("disable-scroll");
+});
+
 $(".hide-click").click(function(){
   $("#mobileDisplay").toggleClass("active");
   // $("#mobileLogo").toggleClass("visible");
