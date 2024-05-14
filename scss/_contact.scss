@@ -117,6 +117,15 @@
 
 @media (max-width: 575.98px) {
     .contact {
+
+        .title-group {
+            .content-wrapper {
+                .title-border {
+                    border: solid 7px #0a3b7c;
+                }
+            }
+        }
+
         .contact-wrapper {
             padding: 0px 0px;
             flex-direction: column;
