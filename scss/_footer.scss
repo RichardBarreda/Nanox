@@ -1,12 +1,12 @@
 .footer {
-    padding: 25px 0px;
+    padding: 30px 0px;
     background-color: #0b192a;
     position: relative;
 
     .footer-wrapper {
         .footer-text {
             text-align: center;
-            font-size: 14px;
+            font-size: 18px;
             color: #c7c7c7;
             line-height: 18px;
             margin: 0px;
@@ -18,7 +18,7 @@
         background-color: white;
         position: absolute;
         right: 50px;
-        bottom: 25px;
+        bottom: 15px;
         width: 45px;
         height: 45px;
         display: flex;
@@ -38,4 +38,22 @@
             color: whitesmoke;
         }
     }
+}
+
+
+@media (max-width: 575.98px) {
+    .footer {
+        .footer-wrapper {
+            .footer-text {
+                padding: 0px 40px;
+            }
+        }
+
+        .up-button {
+            border: solid 1px gray;
+            right: 20px;
+            bottom: 75px;
+        }
+    }
+    
 }

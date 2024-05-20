@@ -1,5 +1,5 @@
 .contact {
-    padding: 25px 0px;
+    padding: 25px 0px 30px 0px;
     background-color: #f2f6fd;
     scroll-behavior: smooth;
 
@@ -43,6 +43,21 @@
                     font-weight: 500;
                 }
                 .address-text {
+                    margin: 0px;
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #5A6D7E;
+                }
+
+                .email-label {
+                    margin: 0px;
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #05294b;
+                    font-weight: 500;
+                    margin-top: 15px;
+                }
+                .email-text {
                     margin: 0px;
                     font-size: 18px;
                     line-height: 25px;
