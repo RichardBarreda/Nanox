@@ -1089,5 +1089,14 @@
     bottom: 75px;
   }
 }
+.policy {
+  padding: 50px 0px;
+}
+.policy .page-title {
+  padding-bottom: 15px;
+}
+.policy .page-section {
+  padding-top: 20px;
+}
 
 /*# sourceMappingURL=style.css.map */
