@@ -29,3 +29,30 @@
         
     }
 }
+
+@media (max-width: 575.98px) {
+    .policy {
+        .page-title {
+            padding-bottom: 0px;
+            font-size: 30px;
+        }
+
+        .page-text {
+            font-size: 14px;
+        }
+
+        .page-section {
+            .section-title {
+                font-size: 18px;
+            }
+
+            .list-item {
+                font-size: 14px;
+            }
+
+            .section-text {
+                font-size: 14px;
+            }
+        }
+    }
+}
